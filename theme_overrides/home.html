@@ -1,0 +1,88 @@
+<!--
+---
+title: Home
+description: Welcome to the River City Rainbow Collective!
+---
+-->
+
+<!-- Custom HTML site displayed as the Home chapter -->
+
+{% extends "base.html" %}
+{% block tabs %}
+{{ super() }}
+<style>
+.md-main {
+  height: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+.md-main__inner {
+  display: flex;
+  height: 100%;
+}
+@media screen and (min-width:60em) {
+  .md-sidebar--secondary {
+      display: none
+  }
+}
+@media screen and (min-width:76.25em) {
+  .md-sidebar--primary {
+      display: none
+  }
+}
+</style>
+
+<!-- Emergency Exit Button -->
+<button onclick="emergencyExit()" class="emergency-button" id="emergency-exit" title="No tea, no shade, just fade">
+    Safety Exit
+</button>
+
+<script>
+function emergencyExit() {
+    // Open and focus new tab first
+    const newTab = window.open('https://www.google.com', '_blank');
+    newTab.focus();
+    // Then redirect current tab
+    window.location.replace('https://www.google.com');
+}
+</script>
+
+<!-- Linktree Homepage -->
+<section class="linktree-container">
+  <div class="linktree-content">
+    <!-- Logo -->
+    <div class="linktree-logo">
+      {% if config.extra.homehtml.logo %}
+      <img src="{{ config.extra.homehtml.logo }}" alt="{{ config.site_name }}" class="linktree-logo-img">
+      {% endif %}
+    </div>
+
+    <!-- Tagline -->
+    <div class="linktree-tagline">
+      {% if config.theme.language == 'es' and config.extra.homehtml.tagline_es %}
+        <p>{{ config.extra.homehtml.tagline_es }}</p>
+      {% else %}
+        <p>{{ config.extra.homehtml.tagline_en }}</p>
+      {% endif %}
+    </div>
+
+    <!-- Buttons -->
+    <div class="linktree-buttons">
+      {% if config.extra.homehtml.buttons %}
+        {% for button in config.extra.homehtml.buttons %}
+          <a href="{{ button.url }}" class="linktree-button" {% if button.url.startswith('http') %}target="_blank" rel="noopener"{% endif %}>
+            {% if config.theme.language == 'es' and button.text_es %}
+              {{ button.text_es }}
+            {% else %}
+              {{ button.text_en }}
+            {% endif %}
+          </a>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}

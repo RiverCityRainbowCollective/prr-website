@@ -1,0 +1,54 @@
+site_name: Peoria Rapid Response
+site_url: https://mydomain.org/
+
+# Theme configuration
+theme:
+  logo: assets/logo.png
+  name: material
+  custom_dir: theme_overrides/
+  features:
+    - navigation.instant
+    # - navigation.tabs
+    # - navigation.sections
+    - toc.integrate
+    - navigation.tracking
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+
+# Homepage configuration
+extra:
+  homehtml:
+    logo: assets/logo.png
+    tagline_en: "Plug into Peoria's Rapid Response Network"
+    tagline_es: "Conéctate a la Red de Respuesta Rápida de Peoria"
+    buttons:
+      - text_en: "Facebook"
+        text_es: ""
+        url: "https://www.facebook.com/profile.php?id=61572967701398"
+      - text_en: "About Us"
+        text_es: ""
+        url: "about"
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Español
+      link: /es/
+      lang: es
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+
+# Plugin configuration
+plugins:
+  - search
+  - social
+  - minify:
+      minify_html: true
+      htmlmin_opts:
+          remove_comments: true
