@@ -3,7 +3,7 @@ site_url: https://mydomain.org/
 
 # Theme configuration
 theme:
-  logo: assets/logo.png
+  logo: assets/prr-logo-new.svg
   name: material
   custom_dir: theme_overrides/
   features:
@@ -20,7 +20,7 @@ theme:
 # Homepage configuration
 extra:
   homehtml:
-    logo: assets/logo.png
+    logo: assets/prr-logo-new.svg
     tagline_en: "Plug into Peoria's Rapid Response Network"
     tagline_es: "Conéctate a la Red de Respuesta Rápida de Peoria"
     buttons:
