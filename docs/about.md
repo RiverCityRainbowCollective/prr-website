@@ -15,7 +15,7 @@ Our mission is to organize and mobilize community resources to help those in cri
 ## Meeting Schedule
 
 We meet **twice each month** to coordinate our efforts:
-
+https://peoriarr.org/about/
 - **Digital Meeting**: Once monthly via video conference for planning and coordination
 - **In-Person Meeting**: Once monthly for hands-on organizing and community building
 
@@ -31,4 +31,4 @@ We operate with transparency, respect, and a commitment to the safety and dignit
 
 ---
 
-*Last updated: November 20 2025*
+*Last updated: June 07 2026*
