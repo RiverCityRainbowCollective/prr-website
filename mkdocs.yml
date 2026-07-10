@@ -25,8 +25,11 @@ extra:
     tagline_es: "Conéctate a la Red de Respuesta Rápida de Peoria"
     buttons:
       - text_en: "Facebook"
-        text_es: ""
+        text_es: "Facebook"
         url: "https://www.facebook.com/profile.php?id=61572967701398"
+      - text_en: "Email"
+        text_es: ""
+        url: "mailto:peoriarapidresponse@protonmail.com"
       - text_en: "About Us"
         text_es: ""
         url: "about"
