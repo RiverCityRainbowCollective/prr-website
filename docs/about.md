@@ -12,16 +12,9 @@ We are a community-based organization dedicated to providing immediate assistanc
 
 Our mission is to organize and mobilize community resources to help those in crisis situations. We believe in mutual aid and collective action to ensure the safety and well-being of all community members.
 
-## Meeting Schedule
-
-We meet **twice each month** to coordinate our efforts:
-https://peoriarr.org/about/
-- **Digital Meeting**: Once monthly via video conference for planning and coordination
-- **In-Person Meeting**: Once monthly for hands-on organizing and community building
-
 ## How to Get Involved
 
-Details on how to join are currently being finalized. We're working on creating accessible pathways for community members to participate in our efforts.
+Email us at [peoriarapidresponse@protonmail.com](mailto:peoriarapidresponse@protonmail.com)
 
 **Please keep an eye on this page for updates on how to get involved.** We'll be posting information about membership, volunteer opportunities, and ways you can contribute to keeping our community safe.
 
@@ -31,4 +24,4 @@ We operate with transparency, respect, and a commitment to the safety and dignit
 
 ---
 
-*Last updated: June 07 2026*
+*Last updated: July 09, 2026*
