@@ -62,10 +62,6 @@
   transition: transform 0.3s ease;
 }
 
-.linktree-logo-img:hover {
-  transform: scale(1.05);
-}
-
 /* Tagline Styles */
 .linktree-tagline {
   margin-bottom: 3rem;
